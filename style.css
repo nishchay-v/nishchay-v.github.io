@@ -1,0 +1,35 @@
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background: url(header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.row{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.welcome{
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 3em;
+}
+
+.bttn{
+    text-align: center;
+    margin: 50px 10px 10px 20px;
+}
+
+.btn-primary{
+    background-color: black;
+    border: 0px;
+}
+.btn-primary:hover{
+    background-color: rgb(44, 44, 44);
+}
